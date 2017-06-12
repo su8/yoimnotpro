@@ -1,0 +1,61 @@
+GtkButton {
+    background-color: #404040;
+    border: none;
+    border-color: #404040;
+    box-shadow: 0 0 13px #333 inset;
+    color: black;
+    -webkit-border-top-left-radius:37px;
+    -moz-border-radius-topleft:37px;
+    border-top-left-radius:37px;
+    -webkit-border-top-right-radius:0px;
+    -moz-border-radius-topright:0px;
+    border-top-right-radius:0px;
+    -webkit-border-bottom-right-radius:37px;
+    -moz-border-radius-bottomright:37px;
+    border-bottom-right-radius:37px;
+    -webkit-border-bottom-left-radius:0px;
+    -moz-border-radius-bottomleft:0px;
+    border-bottom-left-radius:0px;
+}
+GtkButton:hover {
+    background: darkgrey;
+}
+GtkMessageDialog {
+    font: Nimbus Roman No9 L Bold Italic 11;
+    background: #404040;
+    border: none;
+    color: black;
+    -webkit-border-top-left-radius:37px;
+    -moz-border-radius-topleft:37px;
+    border-top-left-radius:37px;
+    -webkit-border-top-right-radius:0px;
+    -moz-border-radius-topright:0px;
+    border-top-right-radius:0px;
+    -webkit-border-bottom-right-radius:37px;
+    -moz-border-radius-bottomright:37px;
+    border-bottom-right-radius:37px;
+    -webkit-border-bottom-left-radius:0px;
+    -moz-border-radius-bottomleft:0px;
+    border-bottom-left-radius:0px;
+}
+GtkMessageDialog:hover {
+    background: darkgrey;
+}
+GtkAboutDialog {
+    font: Nimbus Roman No9 L Bold Italic 11;
+    background: #404040;
+    border: none;
+    color: black;
+    -webkit-border-top-left-radius:37px;
+    -moz-border-radius-topleft:37px;
+    border-top-left-radius:37px;
+    -webkit-border-top-right-radius:0px;
+    -moz-border-radius-topright:0px;
+    border-top-right-radius:0px;
+    -webkit-border-bottom-right-radius:37px;
+    -moz-border-radius-bottomright:37px;
+    border-bottom-right-radius:37px;
+    -webkit-border-bottom-left-radius:0px;
+    -moz-border-radius-bottomleft:0px;
+    border-bottom-left-radius:0px;
+}
