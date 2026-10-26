@@ -5,42 +5,42 @@
   <object class="GtkImage" id="image1">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
-    <property name="pixbuf">../categories/menu1.png</property>
+    <property name="pixbuf">../icons/development.png</property>
   </object>
   <object class="GtkImage" id="image2">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
-    <property name="pixbuf">../categories/menu2.png</property>
+    <property name="pixbuf">../icons/graphics.png</property>
   </object>
   <object class="GtkImage" id="image3">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
-    <property name="pixbuf">../categories/menu3.png</property>
+    <property name="pixbuf">../icons/internet.png</property>
   </object>
   <object class="GtkImage" id="image4">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
-    <property name="pixbuf">../categories/menu4.png</property>
+    <property name="pixbuf">../icons/multimedia.png</property>
   </object>
   <object class="GtkImage" id="image5">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
-    <property name="pixbuf">../categories/menu5.xpm</property>
+    <property name="pixbuf">../icons/system.xpm</property>
   </object>
   <object class="GtkImage" id="image6">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
-    <property name="pixbuf">../categories/menu6.png</property>
+    <property name="pixbuf">../icons/utilities.png</property>
   </object>
   <object class="GtkImage" id="image7">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
-    <property name="pixbuf">../categories/menu7.png</property>
+    <property name="pixbuf">../icons/about.png</property>
   </object>
   <object class="GtkImage" id="image8">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
-    <property name="pixbuf">../categories/langs.png</property>
+    <property name="pixbuf">../icons/language.png</property>
   </object>
   <object class="GtkWindow" id="window1">
     <property name="can_focus">False</property>

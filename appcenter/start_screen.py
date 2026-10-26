@@ -1,7 +1,7 @@
-from mymodules.builder import Builder
-from mymodules.action.install_remove import StartKickingSomeNinjas
+from appcenter.ui import Builder
+from appcenter.installer import StartKickingSomeNinjas
 
-# start screen apps: app: (widget prefix in menu7.ui, display name, tooltip)
+# start screen apps: app: (widget prefix in ui/start.ui, display name, tooltip)
 APPS = {
     "geany": ("geany", "Geany",
         "Geany is a small and lightweight integrated development environment."),

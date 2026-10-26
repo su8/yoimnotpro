@@ -1,7 +1,7 @@
 import subprocess
 import threading
-from mymodules.action import pkg
-from mymodules.action.dial import SetToolTip, action, dial
+from appcenter import packages as pkg
+from appcenter.i18n import SetToolTip, action, dial
 from gi.repository import GLib, Gtk
 
 

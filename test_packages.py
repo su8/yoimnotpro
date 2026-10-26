@@ -3,13 +3,13 @@ import unittest
 from pathlib import Path
 from unittest import mock
 
-from mymodules.action import pkg
+from appcenter import packages as pkg
 
 
 class TestPkg(unittest.TestCase):
 
     def test_package_exceptions_name_real_apps_and_systems(self):
-        src = Path('mymodules/categories/somesome.py').read_text()
+        src = Path('appcenter/categories.py').read_text()
         apps = set(re.findall(r'^\s+"([\w.+-]+)": \(', src, re.M))
         self.assertGreater(len(apps), 80)
         self.assertEqual((pkg.NOT_PACKAGED | set(pkg.RENAMED)) - apps, set())

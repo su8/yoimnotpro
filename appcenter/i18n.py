@@ -11,7 +11,7 @@ class ChangeLang(object):
     def combo_changed(self, combobox):
         active = self.combobox.get_active_text()
         if active in self.combo_dict:
-            from mymodules.builder import SetMenuCategoriesTooltipNames
+            from appcenter.ui import SetMenuCategoriesTooltipNames
             with open(CFG, 'wt') as f:
                 f.write(self.combo_dict[active])
             OpenCFGnSetLang()
@@ -82,17 +82,17 @@ class SetToolTip(object):
             maybe_here=self._arg[1], click_to2=action.click_to, apply_some_action_to=self._arg[2],
             it2=('it' if action.section == 'english' else ''))
 class action(object):
-    gtk_yes = './categories/gtk-yes.png'
-    gtk_no = './categories/gtk-no.png'
-    menu_img_66 = './categories/menu66.png'
-    menu_img_5 = './categories/menu5.xpm'
-    menu_img_4 = './categories/menu4.png'
-    menu_img_3 = './categories/menu3.png'
-    menu_img_2 = './categories/menu2.png'
-    menu_img_1 = './categories/menu1.png'
-    menu_img_55 = './categories/menu55.xpm'
-    menu_img_11 = './categories/menu11.png'
-    menu_img_22 = './categories/menu22.png'
-    menu_img_33 = './categories/menu33.png'
-    menu_img_44 = './categories/menu44.png'
-    menu_img_6 = './categories/menu6.png'
+    gtk_yes = './icons/installed.png'
+    gtk_no = './icons/not-installed.png'
+    menu_img_66 = './icons/utilities-active.png'
+    menu_img_5 = './icons/system.xpm'
+    menu_img_4 = './icons/multimedia.png'
+    menu_img_3 = './icons/internet.png'
+    menu_img_2 = './icons/graphics.png'
+    menu_img_1 = './icons/development.png'
+    menu_img_55 = './icons/system-active.xpm'
+    menu_img_11 = './icons/development-active.png'
+    menu_img_22 = './icons/graphics-active.png'
+    menu_img_33 = './icons/internet-active.png'
+    menu_img_44 = './icons/multimedia-active.png'
+    menu_img_6 = './icons/utilities.png'

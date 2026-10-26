@@ -2,11 +2,11 @@
 import os
 import sys
 os.chdir(os.path.dirname(os.path.abspath(__file__)))  # ui/, translations/ etc. are relative paths
-from mymodules.builder import Builder, SetMenuCategoriesTooltipNames
-from mymodules.categories.menu7_button import InitConnectMeSignals
-import mymodules.categories.somesome as somesome
-from mymodules.action import pkg
-from mymodules.action.dial import action, OpenCFGnSetLang, ChangeLang
+from appcenter.ui import Builder, SetMenuCategoriesTooltipNames
+from appcenter.start_screen import InitConnectMeSignals
+import appcenter.categories as somesome
+from appcenter import packages as pkg
+from appcenter.i18n import action, OpenCFGnSetLang, ChangeLang
 import cairo
 import gi
 gi.require_version('Gtk', '3.0')

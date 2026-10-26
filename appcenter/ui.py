@@ -1,4 +1,4 @@
-from mymodules.action.dial import action
+from appcenter.i18n import action
 from gi.repository import Gtk
 
 class Builder:
@@ -6,31 +6,31 @@ class Builder:
     builder.add_from_file('./ui/main.ui')
 
     builder2 = Gtk.Builder()
-    builder2.add_from_file('./ui/menu1.ui')
+    builder2.add_from_file('./ui/development.ui')
     grid_development = builder2.get_object("grid1")
 
     builder3 = Gtk.Builder()
-    builder3.add_from_file('./ui/menu2.ui')
+    builder3.add_from_file('./ui/graphics.ui')
     grid_graphics = builder3.get_object("grid1")
 
     builder4 = Gtk.Builder()
-    builder4.add_from_file('./ui/menu3.ui')
+    builder4.add_from_file('./ui/internet.ui')
     grid_internet = builder4.get_object("grid1")
 
     builder5 = Gtk.Builder()
-    builder5.add_from_file('./ui/menu4.ui')
+    builder5.add_from_file('./ui/multimedia.ui')
     grid_multimedia = builder5.get_object("grid1")
 
     builder6 = Gtk.Builder()
-    builder6.add_from_file('./ui/menu5.ui')
+    builder6.add_from_file('./ui/system.ui')
     grid_system = builder6.get_object("grid1")
 
     builder7 = Gtk.Builder()
-    builder7.add_from_file('./ui/menu6.ui')
+    builder7.add_from_file('./ui/utilities.ui')
     grid_utilities = builder7.get_object("grid1")
 
     builder8 = Gtk.Builder()
-    builder8.add_from_file('./ui/menu7.ui')
+    builder8.add_from_file('./ui/start.ui')
     grid_custom = builder8.get_object("grid1")
 
     # display text for each category while hovering it with your mouse

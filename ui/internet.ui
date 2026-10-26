@@ -4,32 +4,32 @@
   <object class="GtkImage" id="chrome_img">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
-    <property name="pixbuf">../categories/gtk-yes.png</property>
+    <property name="pixbuf">../icons/installed.png</property>
   </object>
   <object class="GtkImage" id="chromium_img">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
-    <property name="pixbuf">../categories/gtk-yes.png</property>
+    <property name="pixbuf">../icons/installed.png</property>
   </object>
   <object class="GtkImage" id="deluge_img">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
-    <property name="pixbuf">../categories/gtk-yes.png</property>
+    <property name="pixbuf">../icons/installed.png</property>
   </object>
   <object class="GtkImage" id="evolution_img">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
-    <property name="pixbuf">../categories/gtk-yes.png</property>
+    <property name="pixbuf">../icons/installed.png</property>
   </object>
   <object class="GtkImage" id="filezilla_img">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
-    <property name="pixbuf">../categories/gtk-yes.png</property>
+    <property name="pixbuf">../icons/installed.png</property>
   </object>
   <object class="GtkImage" id="firefox_img">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
-    <property name="pixbuf">../categories/gtk-yes.png</property>
+    <property name="pixbuf">../icons/installed.png</property>
   </object>
   <object class="GtkImage" id="image1">
     <property name="visible">True</property>
@@ -136,58 +136,58 @@
   <object class="GtkImage" id="liferea_img">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
-    <property name="pixbuf">../categories/gtk-yes.png</property>
+    <property name="pixbuf">../icons/installed.png</property>
   </object>
   <object class="GtkImage" id="linuxdcpp_img">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
     <property name="halign">center</property>
-    <property name="pixbuf">../categories/gtk-yes.png</property>
+    <property name="pixbuf">../icons/installed.png</property>
   </object>
   <object class="GtkImage" id="midori_img">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
-    <property name="pixbuf">../categories/gtk-yes.png</property>
+    <property name="pixbuf">../icons/installed.png</property>
   </object>
   <object class="GtkImage" id="minitube_img">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
-    <property name="pixbuf">../categories/gtk-yes.png</property>
+    <property name="pixbuf">../icons/installed.png</property>
   </object>
   <object class="GtkImage" id="opera_img">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
-    <property name="pixbuf">../categories/gtk-yes.png</property>
+    <property name="pixbuf">../icons/installed.png</property>
   </object>
   <object class="GtkImage" id="pidgin_img">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
-    <property name="pixbuf">../categories/gtk-yes.png</property>
+    <property name="pixbuf">../icons/installed.png</property>
   </object>
   <object class="GtkImage" id="skype_img">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
-    <property name="pixbuf">../categories/gtk-yes.png</property>
+    <property name="pixbuf">../icons/installed.png</property>
   </object>
   <object class="GtkImage" id="steam_img">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
-    <property name="pixbuf">../categories/gtk-yes.png</property>
+    <property name="pixbuf">../icons/installed.png</property>
   </object>
   <object class="GtkImage" id="thunderbird_img">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
-    <property name="pixbuf">../categories/gtk-yes.png</property>
+    <property name="pixbuf">../icons/installed.png</property>
   </object>
   <object class="GtkImage" id="transmission_img">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
-    <property name="pixbuf">../categories/gtk-yes.png</property>
+    <property name="pixbuf">../icons/installed.png</property>
   </object>
   <object class="GtkImage" id="xchat_img">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
-    <property name="pixbuf">../categories/gtk-yes.png</property>
+    <property name="pixbuf">../icons/installed.png</property>
   </object>
   <object class="GtkGrid" id="grid1">
     <property name="visible">True</property>

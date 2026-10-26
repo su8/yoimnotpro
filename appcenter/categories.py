@@ -1,10 +1,10 @@
 from copy import deepcopy
-from mymodules.buttons_images import Img
-from mymodules.builder import Builder
-from mymodules.action import pkg
-from mymodules.action.install_remove import StartKickingSomeNinjas, show_state
-from mymodules.action.dial import action
-from mymodules.categories.menu7_button import APPS
+from appcenter.sidebar_icons import Img
+from appcenter.ui import Builder
+from appcenter import packages as pkg
+from appcenter.installer import StartKickingSomeNinjas, show_state
+from appcenter.i18n import action
+from appcenter.start_screen import APPS
 
 class Menu6(object):
     pass

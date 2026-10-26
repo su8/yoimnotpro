@@ -1,4 +1,4 @@
-from mymodules.builder import Builder
+from appcenter.ui import Builder
 
 class Img(object):
     # get the categories images, will be used once you click on some the categories to change those images with active or inactive
