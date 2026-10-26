@@ -22,7 +22,7 @@ class InitConnectMeSignals(object):
         Menu7.liferea_.connect("clicked", ninja, 'liferea')
         Menu7.htop_.connect("clicked", ninja, 'htop')
         Menu7.skype_.connect("clicked", ninja, 'skype')
-        Menu7.wireshark_.connect("clicked", ninja, 'wireshark')
+        Menu7.wireshark_.connect("clicked", ninja, 'wireshark-gtk')
         Menu7.virtualbox_.connect("clicked", ninja, 'virtualbox')
         Menu7.steam_.connect("clicked", ninja, 'steam')
         Menu7.xchat_.connect("clicked", ninja, 'xchat')
