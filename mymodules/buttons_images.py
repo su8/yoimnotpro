@@ -1,0 +1,31 @@
+from mymodules.builder import Builder
+
+class Img(object):
+    geany__img = Builder.builder8.get_object("geany_img_")
+    blender__img = Builder.builder8.get_object("blender_img_")
+    ninja_ide__img = Builder.builder8.get_object("ninja_ide_img_")
+    glade__img = Builder.builder8.get_object("glade_img_")
+    audacious__img = Builder.builder8.get_object("audacious_img_")
+    gimp__img = Builder.builder8.get_object("gimp_img_")
+    evince__img = Builder.builder8.get_object("evince_img_")
+    xfburn__img = Builder.builder8.get_object("xfburn_img_")
+    flashplayer__img = Builder.builder8.get_object("flashplayer_img_")
+    openshot__img = Builder.builder8.get_object("openshot_img_")
+    chromium__img = Builder.builder8.get_object("chromium_img_")
+    deluge__img = Builder.builder8.get_object("deluge_img_")
+    liferea__img = Builder.builder8.get_object("liferea_img_")
+    htop__img = Builder.builder8.get_object("htop_img_")
+    skype__img = Builder.builder8.get_object("skype_img_")
+    wireshark__img = Builder.builder8.get_object("wireshark_img_")
+    virtualbox__img = Builder.builder8.get_object("virtualbox_img_")
+    steam__img = Builder.builder8.get_object("steam_img_")
+    xchat__img = Builder.builder8.get_object("xchat_img_")
+    gedit__img = Builder.builder8.get_object("gedit_img_")
+
+    # get the categories images, will be used once you click on some the categories to change those images with active or inactive
+    image1 = Builder.builder.get_object("image1")
+    image2 = Builder.builder.get_object("image2")
+    image3 = Builder.builder.get_object("image3")
+    image4 = Builder.builder.get_object("image4")
+    image5 = Builder.builder.get_object("image5")
+    image6 = Builder.builder.get_object("image6")
