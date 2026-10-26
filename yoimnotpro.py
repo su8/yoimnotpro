@@ -5,6 +5,7 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))  # ui/, translations/ etc. 
 from mymodules.builder import Builder, SetMenuCategoriesTooltipNames
 from mymodules.categories.menu7_button import InitConnectMeSignals
 import mymodules.categories.somesome as somesome
+from mymodules.action import pkg
 from mymodules.action.dial import action, OpenCFGnSetLang, ChangeLang
 import cairo
 import gi
@@ -98,5 +99,7 @@ class iod(object):
         self.window.show_all()
 
 if __name__ == '__main__':
+    if pkg.SYSTEM is None:
+        sys.exit('yoimnotpro supports Arch Linux (pacman), Debian (apt) and OpenBSD (pkg_add).')
     iod()
     Gtk.main()
