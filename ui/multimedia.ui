@@ -1,205 +1,242 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <interface>
   <!-- interface-requires gtk+ 3.10 -->
-  <object class="GtkImage" id="chrome_img">
+  <object class="GtkImage" id="amarok_img">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
-    <property name="pixbuf">../categories/gtk-yes.png</property>
+    <property name="pixbuf">../icons/installed.png</property>
   </object>
-  <object class="GtkImage" id="chromium_img">
+  <object class="GtkImage" id="audacious_img">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
-    <property name="pixbuf">../categories/gtk-yes.png</property>
+    <property name="pixbuf">../icons/installed.png</property>
   </object>
-  <object class="GtkImage" id="deluge_img">
+  <object class="GtkImage" id="banshee_img">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
-    <property name="pixbuf">../categories/gtk-yes.png</property>
+    <property name="pixbuf">../icons/installed.png</property>
   </object>
-  <object class="GtkImage" id="evolution_img">
+  <object class="GtkImage" id="cheese_img">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
-    <property name="pixbuf">../categories/gtk-yes.png</property>
+    <property name="pixbuf">../icons/installed.png</property>
   </object>
-  <object class="GtkImage" id="filezilla_img">
+  <object class="GtkImage" id="clementine_img">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
-    <property name="pixbuf">../categories/gtk-yes.png</property>
+    <property name="pixbuf">../icons/installed.png</property>
   </object>
-  <object class="GtkImage" id="firefox_img">
+  <object class="GtkImage" id="flashplayer_img">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
-    <property name="pixbuf">../categories/gtk-yes.png</property>
+    <property name="pixbuf">../icons/installed.png</property>
+  </object>
+  <object class="GtkImage" id="guayadeque_img">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="pixbuf">../icons/installed.png</property>
   </object>
   <object class="GtkImage" id="image1">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
     <property name="halign">center</property>
-    <property name="pixbuf">../apps/internet/chromium.png</property>
+    <property name="pixbuf">../apps/multimedia/amarok.png</property>
   </object>
   <object class="GtkImage" id="image10">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
     <property name="halign">center</property>
-    <property name="pixbuf">../apps/internet/minitube.png</property>
+    <property name="pixbuf">../apps/multimedia/openshot.png</property>
   </object>
   <object class="GtkImage" id="image11">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
     <property name="halign">center</property>
-    <property name="pixbuf">../apps/internet/opera.png</property>
+    <property name="pixbuf">../apps/multimedia/pitivi.png</property>
   </object>
   <object class="GtkImage" id="image12">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
     <property name="halign">center</property>
-    <property name="pixbuf">../apps/internet/pidgin.png</property>
+    <property name="pixbuf">../apps/multimedia/rhythmbox.png</property>
   </object>
   <object class="GtkImage" id="image13">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
     <property name="halign">center</property>
-    <property name="pixbuf">../apps/internet/skype.png</property>
+    <property name="pixbuf">../apps/multimedia/soundconverter.png</property>
   </object>
   <object class="GtkImage" id="image14">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
     <property name="halign">center</property>
-    <property name="pixbuf">../apps/internet/steam.png</property>
+    <property name="pixbuf">../apps/multimedia/totem.png</property>
   </object>
   <object class="GtkImage" id="image15">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
     <property name="halign">center</property>
-    <property name="pixbuf">../apps/internet/thunderbird.png</property>
+    <property name="pixbuf">../apps/multimedia/vlc.png</property>
   </object>
   <object class="GtkImage" id="image16">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
     <property name="halign">center</property>
-    <property name="pixbuf">../apps/internet/transmission-gtk.png</property>
+    <property name="pixbuf">../apps/multimedia/winff.jpg</property>
+  </object>
+  <object class="GtkImage" id="image17">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="halign">center</property>
+    <property name="pixbuf">../apps/multimedia/xfburn.png</property>
   </object>
   <object class="GtkImage" id="image18">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
     <property name="halign">center</property>
-    <property name="pixbuf">../apps/internet/linuxdcpp.png</property>
+    <property name="pixbuf">../apps/multimedia/simplescreenrecorder.png</property>
+  </object>
+  <object class="GtkImage" id="image19">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="halign">center</property>
+    <property name="pixbuf">../apps/multimedia/kdenlive.png</property>
   </object>
   <object class="GtkImage" id="image2">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
     <property name="halign">center</property>
-    <property name="pixbuf">../apps/internet/deluge.png</property>
+    <property name="pixbuf">../apps/multimedia/audacious.png</property>
+  </object>
+  <object class="GtkImage" id="image20">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="halign">center</property>
+    <property name="pixbuf">../apps/multimedia/vokoscreen.png</property>
   </object>
   <object class="GtkImage" id="image3">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
     <property name="halign">center</property>
-    <property name="pixbuf">../apps/internet/evolution.png</property>
+    <property name="pixbuf">../apps/multimedia/banshee.png</property>
   </object>
   <object class="GtkImage" id="image4">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
     <property name="halign">center</property>
-    <property name="pixbuf">../apps/internet/filezilla.png</property>
+    <property name="pixbuf">../apps/multimedia/cheese.png</property>
   </object>
   <object class="GtkImage" id="image5">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
     <property name="halign">center</property>
-    <property name="pixbuf">../apps/internet/firefox.png</property>
+    <property name="pixbuf">../apps/multimedia/clementine.png</property>
   </object>
   <object class="GtkImage" id="image6">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
     <property name="halign">center</property>
-    <property name="pixbuf">../apps/internet/google-chrome.png</property>
+    <property name="pixbuf">../apps/multimedia/flashplayer.png</property>
   </object>
   <object class="GtkImage" id="image7">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
     <property name="halign">center</property>
-    <property name="pixbuf">../apps/internet/xchat.png</property>
+    <property name="pixbuf">../apps/multimedia/gtk-recordmydesktop.png</property>
   </object>
   <object class="GtkImage" id="image8">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
     <property name="halign">center</property>
-    <property name="pixbuf">../apps/internet/liferea.png</property>
+    <property name="pixbuf">../apps/multimedia/guayadeque.png</property>
   </object>
   <object class="GtkImage" id="image9">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
     <property name="halign">center</property>
-    <property name="pixbuf">../apps/internet/midori.png</property>
+    <property name="pixbuf">../apps/multimedia/mplayer.png</property>
   </object>
-  <object class="GtkImage" id="liferea_img">
-    <property name="visible">True</property>
-    <property name="can_focus">False</property>
-    <property name="pixbuf">../categories/gtk-yes.png</property>
-  </object>
-  <object class="GtkImage" id="linuxdcpp_img">
+  <object class="GtkImage" id="kdenlive_img">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
     <property name="halign">center</property>
-    <property name="pixbuf">../categories/gtk-yes.png</property>
+    <property name="pixbuf">../icons/installed.png</property>
   </object>
-  <object class="GtkImage" id="midori_img">
+  <object class="GtkImage" id="mplayer_img">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
-    <property name="pixbuf">../categories/gtk-yes.png</property>
+    <property name="pixbuf">../icons/installed.png</property>
   </object>
-  <object class="GtkImage" id="minitube_img">
+  <object class="GtkImage" id="openshot_img">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
-    <property name="pixbuf">../categories/gtk-yes.png</property>
+    <property name="pixbuf">../icons/installed.png</property>
   </object>
-  <object class="GtkImage" id="opera_img">
+  <object class="GtkImage" id="pitivi_img">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
-    <property name="pixbuf">../categories/gtk-yes.png</property>
+    <property name="pixbuf">../icons/installed.png</property>
   </object>
-  <object class="GtkImage" id="pidgin_img">
+  <object class="GtkImage" id="recordmydesktop_img">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
-    <property name="pixbuf">../categories/gtk-yes.png</property>
+    <property name="pixbuf">../icons/installed.png</property>
   </object>
-  <object class="GtkImage" id="skype_img">
+  <object class="GtkImage" id="rhythmbox_img">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
-    <property name="pixbuf">../categories/gtk-yes.png</property>
+    <property name="pixbuf">../icons/installed.png</property>
   </object>
-  <object class="GtkImage" id="steam_img">
+  <object class="GtkImage" id="simplescreenrecorder_img">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
-    <property name="pixbuf">../categories/gtk-yes.png</property>
+    <property name="halign">center</property>
+    <property name="pixbuf">../icons/installed.png</property>
   </object>
-  <object class="GtkImage" id="thunderbird_img">
+  <object class="GtkImage" id="soundconverter_img">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
-    <property name="pixbuf">../categories/gtk-yes.png</property>
+    <property name="pixbuf">../icons/installed.png</property>
   </object>
-  <object class="GtkImage" id="transmission_img">
+  <object class="GtkImage" id="totem_img">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
-    <property name="pixbuf">../categories/gtk-yes.png</property>
+    <property name="pixbuf">../icons/installed.png</property>
   </object>
-  <object class="GtkImage" id="xchat_img">
+  <object class="GtkImage" id="vlc_img">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
-    <property name="pixbuf">../categories/gtk-yes.png</property>
+    <property name="pixbuf">../icons/installed.png</property>
   </object>
-  <object class="GtkGrid" id="grid1">
+  <object class="GtkImage" id="vokoscreen_img">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="halign">center</property>
+    <property name="pixbuf">../icons/installed.png</property>
+  </object>
+  <object class="GtkImage" id="winff_img">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="pixbuf">../icons/installed.png</property>
+  </object>
+  <object class="GtkImage" id="xfburn_img">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="pixbuf">../icons/installed.png</property>
+  </object>
+  <object class="GtkGrid" id="apps_grid">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
     <property name="margin_left">20</property>
     <property name="margin_top">8</property>
-    <property name="column_spacing">25</property>
+    <property name="column_spacing">18</property>
     <child>
       <object class="GtkLabel" id="label1">
         <property name="visible">True</property>
         <property name="can_focus">False</property>
-        <property name="label" translatable="yes">Chromium</property>
+        <property name="halign">center</property>
+        <property name="valign">center</property>
+        <property name="label" translatable="yes">Amarok</property>
         <attributes>
           <attribute name="foreground" value="#bababdbdb6b6"/>
         </attributes>
@@ -215,7 +252,9 @@
       <object class="GtkLabel" id="label2">
         <property name="visible">True</property>
         <property name="can_focus">False</property>
-        <property name="label" translatable="yes">Deluge</property>
+        <property name="halign">center</property>
+        <property name="valign">center</property>
+        <property name="label" translatable="yes">Audacious</property>
         <attributes>
           <attribute name="foreground" value="#bababdbdb6b6"/>
         </attributes>
@@ -231,7 +270,9 @@
       <object class="GtkLabel" id="label3">
         <property name="visible">True</property>
         <property name="can_focus">False</property>
-        <property name="label" translatable="yes">Evolution</property>
+        <property name="halign">center</property>
+        <property name="valign">center</property>
+        <property name="label" translatable="yes">Banshee</property>
         <attributes>
           <attribute name="foreground" value="#bababdbdb6b6"/>
         </attributes>
@@ -247,7 +288,9 @@
       <object class="GtkLabel" id="label4">
         <property name="visible">True</property>
         <property name="can_focus">False</property>
-        <property name="label" translatable="yes">Filezilla</property>
+        <property name="halign">center</property>
+        <property name="valign">center</property>
+        <property name="label" translatable="yes">Cheese</property>
         <attributes>
           <attribute name="foreground" value="#bababdbdb6b6"/>
         </attributes>
@@ -263,7 +306,9 @@
       <object class="GtkLabel" id="label5">
         <property name="visible">True</property>
         <property name="can_focus">False</property>
-        <property name="label" translatable="yes">Firefox</property>
+        <property name="halign">center</property>
+        <property name="valign">center</property>
+        <property name="label" translatable="yes">Clementine</property>
         <attributes>
           <attribute name="foreground" value="#bababdbdb6b6"/>
         </attributes>
@@ -279,7 +324,9 @@
       <object class="GtkLabel" id="label6">
         <property name="visible">True</property>
         <property name="can_focus">False</property>
-        <property name="label" translatable="yes">Chrome</property>
+        <property name="halign">center</property>
+        <property name="valign">center</property>
+        <property name="label" translatable="yes">Flashplayer</property>
         <attributes>
           <attribute name="foreground" value="#bababdbdb6b6"/>
         </attributes>
@@ -292,10 +339,31 @@
       </packing>
     </child>
     <child>
+      <object class="GtkLabel" id="label7">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="halign">center</property>
+        <property name="valign">center</property>
+        <property name="label" translatable="yes">Record My
+  Desktop</property>
+        <attributes>
+          <attribute name="foreground" value="#bababdbdb6b6"/>
+        </attributes>
+      </object>
+      <packing>
+        <property name="left_attach">1</property>
+        <property name="top_attach">3</property>
+        <property name="width">1</property>
+        <property name="height">1</property>
+      </packing>
+    </child>
+    <child>
       <object class="GtkLabel" id="label8">
         <property name="visible">True</property>
         <property name="can_focus">False</property>
-        <property name="label" translatable="yes">Liferea</property>
+        <property name="halign">center</property>
+        <property name="valign">center</property>
+        <property name="label" translatable="yes">Guayadeque</property>
         <attributes>
           <attribute name="foreground" value="#bababdbdb6b6"/>
         </attributes>
@@ -311,7 +379,9 @@
       <object class="GtkLabel" id="label9">
         <property name="visible">True</property>
         <property name="can_focus">False</property>
-        <property name="label" translatable="yes">Midori</property>
+        <property name="halign">center</property>
+        <property name="valign">center</property>
+        <property name="label" translatable="yes">Mplayer</property>
         <attributes>
           <attribute name="foreground" value="#bababdbdb6b6"/>
         </attributes>
@@ -327,7 +397,9 @@
       <object class="GtkLabel" id="label10">
         <property name="visible">True</property>
         <property name="can_focus">False</property>
-        <property name="label" translatable="yes">MiniTube</property>
+        <property name="halign">center</property>
+        <property name="valign">center</property>
+        <property name="label" translatable="yes">Openshot</property>
         <attributes>
           <attribute name="foreground" value="#bababdbdb6b6"/>
         </attributes>
@@ -343,7 +415,9 @@
       <object class="GtkLabel" id="label11">
         <property name="visible">True</property>
         <property name="can_focus">False</property>
-        <property name="label" translatable="yes">Opera</property>
+        <property name="halign">center</property>
+        <property name="valign">center</property>
+        <property name="label" translatable="yes">Pitivi</property>
         <attributes>
           <attribute name="foreground" value="#bababdbdb6b6"/>
         </attributes>
@@ -359,7 +433,9 @@
       <object class="GtkLabel" id="label12">
         <property name="visible">True</property>
         <property name="can_focus">False</property>
-        <property name="label" translatable="yes">Pidgin</property>
+        <property name="halign">center</property>
+        <property name="valign">center</property>
+        <property name="label" translatable="yes">Rhythmbox</property>
         <attributes>
           <attribute name="foreground" value="#bababdbdb6b6"/>
         </attributes>
@@ -375,7 +451,10 @@
       <object class="GtkLabel" id="label13">
         <property name="visible">True</property>
         <property name="can_focus">False</property>
-        <property name="label" translatable="yes">Skype</property>
+        <property name="halign">center</property>
+        <property name="valign">center</property>
+        <property name="label" translatable="yes">  Sound
+Converter</property>
         <attributes>
           <attribute name="foreground" value="#bababdbdb6b6"/>
         </attributes>
@@ -388,12 +467,12 @@
       </packing>
     </child>
     <child>
-      <object class="GtkButton" id="chromium">
+      <object class="GtkButton" id="amarok">
         <property name="visible">True</property>
         <property name="can_focus">True</property>
         <property name="receives_default">True</property>
         <property name="halign">center</property>
-        <property name="image">chromium_img</property>
+        <property name="image">amarok_img</property>
         <property name="relief">none</property>
         <property name="always_show_image">True</property>
       </object>
@@ -405,12 +484,12 @@
       </packing>
     </child>
     <child>
-      <object class="GtkButton" id="deluge">
+      <object class="GtkButton" id="audacious">
         <property name="visible">True</property>
         <property name="can_focus">True</property>
         <property name="receives_default">True</property>
         <property name="halign">center</property>
-        <property name="image">deluge_img</property>
+        <property name="image">audacious_img</property>
         <property name="relief">none</property>
         <property name="always_show_image">True</property>
       </object>
@@ -422,12 +501,12 @@
       </packing>
     </child>
     <child>
-      <object class="GtkButton" id="evolution">
+      <object class="GtkButton" id="banshee">
         <property name="visible">True</property>
         <property name="can_focus">True</property>
         <property name="receives_default">True</property>
         <property name="halign">center</property>
-        <property name="image">evolution_img</property>
+        <property name="image">banshee_img</property>
         <property name="relief">none</property>
         <property name="always_show_image">True</property>
       </object>
@@ -439,12 +518,12 @@
       </packing>
     </child>
     <child>
-      <object class="GtkButton" id="filezilla">
+      <object class="GtkButton" id="cheese">
         <property name="visible">True</property>
         <property name="can_focus">True</property>
         <property name="receives_default">True</property>
         <property name="halign">center</property>
-        <property name="image">filezilla_img</property>
+        <property name="image">cheese_img</property>
         <property name="relief">none</property>
         <property name="always_show_image">True</property>
       </object>
@@ -456,12 +535,12 @@
       </packing>
     </child>
     <child>
-      <object class="GtkButton" id="firefox">
+      <object class="GtkButton" id="clementine">
         <property name="visible">True</property>
         <property name="can_focus">True</property>
         <property name="receives_default">True</property>
         <property name="halign">center</property>
-        <property name="image">firefox_img</property>
+        <property name="image">clementine_img</property>
         <property name="relief">none</property>
         <property name="always_show_image">True</property>
       </object>
@@ -473,12 +552,12 @@
       </packing>
     </child>
     <child>
-      <object class="GtkButton" id="chrome">
+      <object class="GtkButton" id="flashplayer">
         <property name="visible">True</property>
         <property name="can_focus">True</property>
         <property name="receives_default">True</property>
         <property name="halign">center</property>
-        <property name="image">chrome_img</property>
+        <property name="image">flashplayer_img</property>
         <property name="relief">none</property>
         <property name="always_show_image">True</property>
       </object>
@@ -490,15 +569,31 @@
       </packing>
     </child>
     <child>
-      <object class="GtkButton" id="liferea">
+      <object class="GtkButton" id="recordmydesktop">
         <property name="visible">True</property>
         <property name="can_focus">True</property>
         <property name="receives_default">True</property>
         <property name="halign">center</property>
-        <property name="image">liferea_img</property>
+        <property name="image">recordmydesktop_img</property>
         <property name="relief">none</property>
         <property name="always_show_image">True</property>
-        <signal name="clicked" handler="on_meld_clicked" swapped="no"/>
+      </object>
+      <packing>
+        <property name="left_attach">1</property>
+        <property name="top_attach">5</property>
+        <property name="width">1</property>
+        <property name="height">1</property>
+      </packing>
+    </child>
+    <child>
+      <object class="GtkButton" id="guayadeque">
+        <property name="visible">True</property>
+        <property name="can_focus">True</property>
+        <property name="receives_default">True</property>
+        <property name="halign">center</property>
+        <property name="image">guayadeque_img</property>
+        <property name="relief">none</property>
+        <property name="always_show_image">True</property>
       </object>
       <packing>
         <property name="left_attach">2</property>
@@ -508,15 +603,14 @@
       </packing>
     </child>
     <child>
-      <object class="GtkButton" id="opera">
+      <object class="GtkButton" id="pitivi">
         <property name="visible">True</property>
         <property name="can_focus">True</property>
         <property name="receives_default">True</property>
         <property name="halign">center</property>
-        <property name="image">opera_img</property>
+        <property name="image">pitivi_img</property>
         <property name="relief">none</property>
         <property name="always_show_image">True</property>
-        <signal name="clicked" handler="on_qt5_clicked" swapped="no"/>
       </object>
       <packing>
         <property name="left_attach">0</property>
@@ -526,15 +620,14 @@
       </packing>
     </child>
     <child>
-      <object class="GtkButton" id="pidgin">
+      <object class="GtkButton" id="rhythmbox">
         <property name="visible">True</property>
         <property name="can_focus">True</property>
         <property name="receives_default">True</property>
         <property name="halign">center</property>
-        <property name="image">pidgin_img</property>
+        <property name="image">rhythmbox_img</property>
         <property name="relief">none</property>
         <property name="always_show_image">True</property>
-        <signal name="clicked" handler="on_qtcreator_clicked" swapped="no"/>
       </object>
       <packing>
         <property name="left_attach">1</property>
@@ -544,15 +637,14 @@
       </packing>
     </child>
     <child>
-      <object class="GtkButton" id="skyp">
+      <object class="GtkButton" id="soundconverter">
         <property name="visible">True</property>
         <property name="can_focus">True</property>
         <property name="receives_default">True</property>
         <property name="halign">center</property>
-        <property name="image">skype_img</property>
+        <property name="image">soundconverter_img</property>
         <property name="relief">none</property>
         <property name="always_show_image">True</property>
-        <signal name="clicked" handler="on_ninja_ide_clicked" swapped="no"/>
       </object>
       <packing>
         <property name="left_attach">2</property>
@@ -562,15 +654,14 @@
       </packing>
     </child>
     <child>
-      <object class="GtkButton" id="midori">
+      <object class="GtkButton" id="mplayer">
         <property name="visible">True</property>
         <property name="can_focus">True</property>
         <property name="receives_default">True</property>
         <property name="halign">center</property>
-        <property name="image">midori_img</property>
+        <property name="image">mplayer_img</property>
         <property name="relief">none</property>
         <property name="always_show_image">True</property>
-        <signal name="clicked" handler="on_netbeans_clicked" swapped="no"/>
       </object>
       <packing>
         <property name="left_attach">3</property>
@@ -580,15 +671,14 @@
       </packing>
     </child>
     <child>
-      <object class="GtkButton" id="minitube">
+      <object class="GtkButton" id="openshot">
         <property name="visible">True</property>
         <property name="can_focus">True</property>
         <property name="receives_default">True</property>
         <property name="halign">center</property>
-        <property name="image">minitube_img</property>
+        <property name="image">openshot_img</property>
         <property name="relief">none</property>
         <property name="always_show_image">True</property>
-        <signal name="clicked" handler="on_qt4_clicked" swapped="no"/>
       </object>
       <packing>
         <property name="left_attach">4</property>
@@ -601,7 +691,9 @@
       <object class="GtkLabel" id="label14">
         <property name="visible">True</property>
         <property name="can_focus">False</property>
-        <property name="label" translatable="yes">Steam</property>
+        <property name="halign">center</property>
+        <property name="valign">center</property>
+        <property name="label" translatable="yes">Totem</property>
         <attributes>
           <attribute name="foreground" value="#bababdbdb6b6"/>
         </attributes>
@@ -617,7 +709,9 @@
       <object class="GtkLabel" id="label15">
         <property name="visible">True</property>
         <property name="can_focus">False</property>
-        <property name="label" translatable="yes">Thunderbird</property>
+        <property name="halign">center</property>
+        <property name="valign">center</property>
+        <property name="label" translatable="yes">Vlc</property>
         <attributes>
           <attribute name="foreground" value="#bababdbdb6b6"/>
         </attributes>
@@ -633,7 +727,9 @@
       <object class="GtkLabel" id="label16">
         <property name="visible">True</property>
         <property name="can_focus">False</property>
-        <property name="label" translatable="yes">Transmission</property>
+        <property name="halign">center</property>
+        <property name="valign">center</property>
+        <property name="label" translatable="yes">Winff</property>
         <attributes>
           <attribute name="foreground" value="#bababdbdb6b6"/>
         </attributes>
@@ -646,12 +742,28 @@
       </packing>
     </child>
     <child>
-      <object class="GtkButton" id="steam">
+      <object class="GtkLabel" id="label17">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="label" translatable="yes">Xfburn</property>
+        <attributes>
+          <attribute name="foreground" value="#bababdbdb6b6"/>
+        </attributes>
+      </object>
+      <packing>
+        <property name="left_attach">1</property>
+        <property name="top_attach">9</property>
+        <property name="width">1</property>
+        <property name="height">1</property>
+      </packing>
+    </child>
+    <child>
+      <object class="GtkButton" id="totem">
         <property name="visible">True</property>
         <property name="can_focus">True</property>
         <property name="receives_default">True</property>
         <property name="halign">center</property>
-        <property name="image">steam_img</property>
+        <property name="image">totem_img</property>
         <property name="relief">none</property>
         <property name="always_show_image">True</property>
       </object>
@@ -663,12 +775,12 @@
       </packing>
     </child>
     <child>
-      <object class="GtkButton" id="thunderbird">
+      <object class="GtkButton" id="vlc">
         <property name="visible">True</property>
         <property name="can_focus">True</property>
         <property name="receives_default">True</property>
         <property name="halign">center</property>
-        <property name="image">thunderbird_img</property>
+        <property name="image">vlc_img</property>
         <property name="relief">none</property>
         <property name="always_show_image">True</property>
       </object>
@@ -680,12 +792,12 @@
       </packing>
     </child>
     <child>
-      <object class="GtkButton" id="transmission">
+      <object class="GtkButton" id="winff">
         <property name="visible">True</property>
         <property name="can_focus">True</property>
         <property name="receives_default">True</property>
         <property name="halign">center</property>
-        <property name="image">transmission_img</property>
+        <property name="image">winff_img</property>
         <property name="relief">none</property>
         <property name="always_show_image">True</property>
       </object>
@@ -697,40 +809,24 @@
       </packing>
     </child>
     <child>
-      <object class="GtkLabel" id="label17">
-        <property name="visible">True</property>
-        <property name="can_focus">False</property>
-        <property name="label" translatable="yes">Xchat</property>
-        <attributes>
-          <attribute name="foreground" value="#bababdbdb6b6"/>
-        </attributes>
-      </object>
-      <packing>
-        <property name="left_attach">1</property>
-        <property name="top_attach">3</property>
-        <property name="width">1</property>
-        <property name="height">1</property>
-      </packing>
-    </child>
-    <child>
-      <object class="GtkButton" id="xchat">
+      <object class="GtkButton" id="xfburn">
         <property name="visible">True</property>
         <property name="can_focus">True</property>
         <property name="receives_default">True</property>
         <property name="halign">center</property>
-        <property name="image">xchat_img</property>
+        <property name="image">xfburn_img</property>
         <property name="relief">none</property>
         <property name="always_show_image">True</property>
       </object>
       <packing>
         <property name="left_attach">1</property>
-        <property name="top_attach">5</property>
+        <property name="top_attach">11</property>
         <property name="width">1</property>
         <property name="height">1</property>
       </packing>
     </child>
     <child>
-      <object class="GtkToggleButton" id="chromium_icon_tooltip">
+      <object class="GtkToggleButton" id="amarok_icon_tooltip">
         <property name="visible">True</property>
         <property name="sensitive">False</property>
         <property name="can_focus">True</property>
@@ -750,7 +846,7 @@
       </packing>
     </child>
     <child>
-      <object class="GtkToggleButton" id="deluge_icon_tooltip">
+      <object class="GtkToggleButton" id="audacious_icon_tooltip">
         <property name="visible">True</property>
         <property name="sensitive">False</property>
         <property name="can_focus">True</property>
@@ -770,7 +866,7 @@
       </packing>
     </child>
     <child>
-      <object class="GtkToggleButton" id="evolution_icon_tooltip">
+      <object class="GtkToggleButton" id="banshee_icon_tooltip">
         <property name="visible">True</property>
         <property name="sensitive">False</property>
         <property name="can_focus">True</property>
@@ -790,7 +886,7 @@
       </packing>
     </child>
     <child>
-      <object class="GtkToggleButton" id="filezilla_icon_tooltip">
+      <object class="GtkToggleButton" id="cheese_icon_tooltip">
         <property name="visible">True</property>
         <property name="sensitive">False</property>
         <property name="can_focus">True</property>
@@ -810,7 +906,7 @@
       </packing>
     </child>
     <child>
-      <object class="GtkToggleButton" id="firefox_icon_tooltip">
+      <object class="GtkToggleButton" id="clementine_icon_tooltip">
         <property name="visible">True</property>
         <property name="sensitive">False</property>
         <property name="can_focus">True</property>
@@ -830,7 +926,7 @@
       </packing>
     </child>
     <child>
-      <object class="GtkToggleButton" id="chrome_icon_tooltip">
+      <object class="GtkToggleButton" id="flashplayer_icon_tooltip">
         <property name="visible">True</property>
         <property name="sensitive">False</property>
         <property name="can_focus">True</property>
@@ -850,7 +946,7 @@
       </packing>
     </child>
     <child>
-      <object class="GtkToggleButton" id="xchat_icon_tooltip">
+      <object class="GtkToggleButton" id="recordmydesktop_icon_tooltip">
         <property name="visible">True</property>
         <property name="sensitive">False</property>
         <property name="can_focus">True</property>
@@ -870,7 +966,7 @@
       </packing>
     </child>
     <child>
-      <object class="GtkToggleButton" id="liferea_icon_tooltip">
+      <object class="GtkToggleButton" id="guayadeque_icon_tooltip">
         <property name="visible">True</property>
         <property name="sensitive">False</property>
         <property name="can_focus">True</property>
@@ -890,7 +986,7 @@
       </packing>
     </child>
     <child>
-      <object class="GtkToggleButton" id="midori_icon_tooltip">
+      <object class="GtkToggleButton" id="mplayer_icon_tooltip">
         <property name="visible">True</property>
         <property name="sensitive">False</property>
         <property name="can_focus">True</property>
@@ -910,7 +1006,7 @@
       </packing>
     </child>
     <child>
-      <object class="GtkToggleButton" id="minitube_icon_tooltip">
+      <object class="GtkToggleButton" id="openshot_icon_tooltip">
         <property name="visible">True</property>
         <property name="sensitive">False</property>
         <property name="can_focus">True</property>
@@ -930,7 +1026,7 @@
       </packing>
     </child>
     <child>
-      <object class="GtkToggleButton" id="opera_icon_tooltip">
+      <object class="GtkToggleButton" id="pitivi_icon_tooltip">
         <property name="visible">True</property>
         <property name="sensitive">False</property>
         <property name="can_focus">True</property>
@@ -950,7 +1046,7 @@
       </packing>
     </child>
     <child>
-      <object class="GtkToggleButton" id="pidgin_icon_tooltip">
+      <object class="GtkToggleButton" id="rhythmbox_icon_tooltip">
         <property name="visible">True</property>
         <property name="sensitive">False</property>
         <property name="can_focus">True</property>
@@ -970,7 +1066,7 @@
       </packing>
     </child>
     <child>
-      <object class="GtkToggleButton" id="skype_icon_tooltip">
+      <object class="GtkToggleButton" id="soundconverter_icon_tooltip">
         <property name="visible">True</property>
         <property name="sensitive">False</property>
         <property name="can_focus">True</property>
@@ -990,7 +1086,7 @@
       </packing>
     </child>
     <child>
-      <object class="GtkToggleButton" id="steam_icon_tooltip">
+      <object class="GtkToggleButton" id="totem_icon_tooltip">
         <property name="visible">True</property>
         <property name="sensitive">False</property>
         <property name="can_focus">True</property>
@@ -1010,7 +1106,7 @@
       </packing>
     </child>
     <child>
-      <object class="GtkToggleButton" id="thunderbird_icon_tooltip">
+      <object class="GtkToggleButton" id="vlc_icon_tooltip">
         <property name="visible">True</property>
         <property name="sensitive">False</property>
         <property name="can_focus">True</property>
@@ -1030,7 +1126,7 @@
       </packing>
     </child>
     <child>
-      <object class="GtkToggleButton" id="transmission_icon_tooltip">
+      <object class="GtkToggleButton" id="winff_icon_tooltip">
         <property name="visible">True</property>
         <property name="sensitive">False</property>
         <property name="can_focus">True</property>
@@ -1050,29 +1146,13 @@
       </packing>
     </child>
     <child>
-      <object class="GtkLabel" id="label7">
-        <property name="visible">True</property>
-        <property name="can_focus">False</property>
-        <property name="label" translatable="yes">Linuxdcpp</property>
-        <attributes>
-          <attribute name="foreground" value="#bababdbdb6b6"/>
-        </attributes>
-      </object>
-      <packing>
-        <property name="left_attach">1</property>
-        <property name="top_attach">9</property>
-        <property name="width">1</property>
-        <property name="height">1</property>
-      </packing>
-    </child>
-    <child>
-      <object class="GtkToggleButton" id="linuxdcpp_icon_tooltip">
+      <object class="GtkToggleButton" id="xfburn_icon_tooltip">
         <property name="visible">True</property>
         <property name="sensitive">False</property>
         <property name="can_focus">True</property>
         <property name="receives_default">True</property>
         <property name="halign">center</property>
-        <property name="image">image18</property>
+        <property name="image">image17</property>
         <property name="relief">none</property>
         <property name="focus_on_click">False</property>
         <property name="always_show_image">True</property>
@@ -1086,48 +1166,163 @@
       </packing>
     </child>
     <child>
-      <object class="GtkButton" id="linuxdcpp">
+      <object class="GtkLabel" id="label18">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="label" translatable="yes">Kdenlive</property>
+        <attributes>
+          <attribute name="foreground" value="#bababdbdb6b6"/>
+        </attributes>
+      </object>
+      <packing>
+        <property name="left_attach">2</property>
+        <property name="top_attach">9</property>
+        <property name="width">1</property>
+        <property name="height">1</property>
+      </packing>
+    </child>
+    <child>
+      <object class="GtkButton" id="kdenlive">
         <property name="visible">True</property>
         <property name="can_focus">True</property>
         <property name="receives_default">True</property>
         <property name="halign">center</property>
-        <property name="image">linuxdcpp_img</property>
+        <property name="image">kdenlive_img</property>
         <property name="relief">none</property>
         <property name="always_show_image">True</property>
       </object>
       <packing>
-        <property name="left_attach">1</property>
+        <property name="left_attach">2</property>
         <property name="top_attach">11</property>
         <property name="width">1</property>
         <property name="height">1</property>
       </packing>
     </child>
     <child>
-      <placeholder/>
+      <object class="GtkToggleButton" id="kdenlive_icon_tooltip">
+        <property name="visible">True</property>
+        <property name="sensitive">False</property>
+        <property name="can_focus">True</property>
+        <property name="receives_default">True</property>
+        <property name="halign">center</property>
+        <property name="image">image19</property>
+        <property name="relief">none</property>
+        <property name="focus_on_click">False</property>
+        <property name="always_show_image">True</property>
+        <property name="draw_indicator">True</property>
+      </object>
+      <packing>
+        <property name="left_attach">2</property>
+        <property name="top_attach">10</property>
+        <property name="width">1</property>
+        <property name="height">1</property>
+      </packing>
     </child>
     <child>
-      <placeholder/>
+      <object class="GtkLabel" id="label19">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="label" translatable="yes">SSR</property>
+        <attributes>
+          <attribute name="foreground" value="#bababdbdb6b6"/>
+        </attributes>
+      </object>
+      <packing>
+        <property name="left_attach">3</property>
+        <property name="top_attach">9</property>
+        <property name="width">1</property>
+        <property name="height">1</property>
+      </packing>
     </child>
     <child>
-      <placeholder/>
+      <object class="GtkLabel" id="label20">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="label" translatable="yes">Vokoscreen</property>
+        <attributes>
+          <attribute name="foreground" value="#bababdbdb6b6"/>
+        </attributes>
+      </object>
+      <packing>
+        <property name="left_attach">4</property>
+        <property name="top_attach">9</property>
+        <property name="width">1</property>
+        <property name="height">1</property>
+      </packing>
     </child>
     <child>
-      <placeholder/>
+      <object class="GtkToggleButton" id="simplescreenrecorder_icon_tooltip">
+        <property name="visible">True</property>
+        <property name="sensitive">False</property>
+        <property name="can_focus">True</property>
+        <property name="receives_default">True</property>
+        <property name="halign">center</property>
+        <property name="image">image18</property>
+        <property name="relief">none</property>
+        <property name="focus_on_click">False</property>
+        <property name="always_show_image">True</property>
+        <property name="draw_indicator">True</property>
+      </object>
+      <packing>
+        <property name="left_attach">3</property>
+        <property name="top_attach">10</property>
+        <property name="width">1</property>
+        <property name="height">1</property>
+      </packing>
     </child>
     <child>
-      <placeholder/>
+      <object class="GtkToggleButton" id="vokoscreen_icon_tooltip">
+        <property name="visible">True</property>
+        <property name="sensitive">False</property>
+        <property name="can_focus">True</property>
+        <property name="receives_default">True</property>
+        <property name="halign">center</property>
+        <property name="image">image20</property>
+        <property name="relief">none</property>
+        <property name="focus_on_click">False</property>
+        <property name="always_show_image">True</property>
+        <property name="draw_indicator">True</property>
+      </object>
+      <packing>
+        <property name="left_attach">4</property>
+        <property name="top_attach">10</property>
+        <property name="width">1</property>
+        <property name="height">1</property>
+      </packing>
     </child>
     <child>
-      <placeholder/>
+      <object class="GtkButton" id="simplescreenrecorder">
+        <property name="visible">True</property>
+        <property name="can_focus">True</property>
+        <property name="receives_default">True</property>
+        <property name="halign">center</property>
+        <property name="image">simplescreenrecorder_img</property>
+        <property name="relief">none</property>
+        <property name="always_show_image">True</property>
+      </object>
+      <packing>
+        <property name="left_attach">3</property>
+        <property name="top_attach">11</property>
+        <property name="width">1</property>
+        <property name="height">1</property>
+      </packing>
     </child>
     <child>
-      <placeholder/>
-    </child>
-    <child>
-      <placeholder/>
-    </child>
-    <child>
-      <placeholder/>
+      <object class="GtkButton" id="vokoscreen">
+        <property name="visible">True</property>
+        <property name="can_focus">True</property>
+        <property name="receives_default">True</property>
+        <property name="halign">center</property>
+        <property name="image">vokoscreen_img</property>
+        <property name="relief">none</property>
+        <property name="always_show_image">True</property>
+      </object>
+      <packing>
+        <property name="left_attach">4</property>
+        <property name="top_attach">11</property>
+        <property name="width">1</property>
+        <property name="height">1</property>
+      </packing>
     </child>
   </object>
 </interface>
