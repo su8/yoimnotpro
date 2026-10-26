@@ -14,11 +14,6 @@ from gi.repository import Gtk, GdkPixbuf, Gdk
 
 class iod(object):
 
-    # check if the program is started as root, else start it with gksudo
-    if os.geteuid() != 0:
-        arguments = ['', sys.executable] + sys.argv + [os.environ]
-        os.execlpe('gksudo', *arguments)
-
     def on_category_clicked(self, widget):
         grid = self.grid_of_button[widget]
         self.cur_menu_dict[grid].load()
@@ -99,6 +94,8 @@ class iod(object):
         self.window.show_all()
 
 if __name__ == '__main__':
+    if os.geteuid() != 0:
+        sys.exit('yoimnotpro installs packages, so run it as root, e.g. with sudo -E or doas')
     if pkg.SYSTEM is None:
         sys.exit('yoimnotpro supports Arch Linux (pacman), Debian (apt) and OpenBSD (pkg_add).')
     iod()
