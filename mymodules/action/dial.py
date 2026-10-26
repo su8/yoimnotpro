@@ -8,9 +8,6 @@ from gi.repository import Gtk
 CFG = os.path.expanduser('~/.yoimnotpro.conf')
 
 class ChangeLang(object):
-    def enc_dec(self, given_str):
-        return given_str.encode(encoding='utf-8')\
-        .decode(encoding='utf-8')
     def combo_changed(self, combobox):
         active = self.combobox.get_active_text()
         if active in self.combo_dict:
@@ -23,10 +20,9 @@ class ChangeLang(object):
         window = Gtk.Window()
         window.set_title('Select Language')
         self.combobox = Gtk.ComboBoxText()
-        self.combo_dict = {"English":'english', self.enc_dec("Български"):'bulgarian',
-        self.enc_dec("Русский"):'russian', "Deutsch":'german', 
-        self.enc_dec("Español"):'spanish',
-        self.enc_dec("Français"):'french', self.enc_dec("हिंदी"):'hindi'}
+        self.combo_dict = {"English":'english', "Български":'bulgarian',
+        "Русский":'russian', "Deutsch":'german', "Español":'spanish',
+        "Français":'french', "हिंदी":'hindi'}
         self.combobox.append("", "Languages:")
         [self.combobox.append('', key) for key in sorted(self.combo_dict.keys(), reverse=False)]
         self.combobox.set_active(0)
@@ -42,12 +38,9 @@ class OpenCFGnSetLang(object):
                 action.section = f.read().split(',')[0] # .split(',')[0] for those that are
         else:                                           # upgrading to newer version
             action.section = 'english'
-        action.encoding = 'utf-8'
         cfg = ConfigParser()
         cfg.read('translations/langs.ini')
-        enc = action.encoding
-        for key, val in cfg.items(action.section):
-            dec = val.encode(enc).decode(enc)
+        for key, dec in cfg.items(action.section):
             if key in ['development','graphics','internet','system',
             'multimedia','utilities','about', 'langs']:
                 setattr(action, key, '<b>{}</b>'.format(dec))
@@ -87,7 +80,7 @@ class SetToolTip(object):
         .format(program_name=self._arg[0].capitalize(), iz2=(('is' if action.section == 'english' else
          action.iz if self._arg[1] == action.installed else str())),
             maybe_here=self._arg[1], click_to2=action.click_to, apply_some_action_to=self._arg[2],
-            it2=('it' if action.section == 'english' else action.it))
+            it2=('it' if action.section == 'english' else ''))
 class action(object):
     gtk_yes = './categories/gtk-yes.png'
     gtk_no = './categories/gtk-no.png'

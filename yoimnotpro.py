@@ -13,18 +13,6 @@ from gi.repository import Gtk, GdkPixbuf, Gdk
 
 class iod(object):
 
-    def set_action_class_attrs(self):
-        attrs_list = ['encoding', 'section', 'langs', 'damn_you_bro',
-        'was_douchebag', 'pitty_to_see_it_go', 'how_dare_you', 'cheers',
-        'eyecandy', 'i_like_it_too', 'good_choice', 'thats_my_boy',
-        'program_description', 'dev_website', 'license', 'suggestions',
-        'comments', 'program_name', 'not_here', 'install_it', 'remove_it',
-        'installed', 'development', 'graphics', 'internet', 'click_to',
-        'multimedia', 'system, utilities', 'about', 'was', 'it',
-        'successfully', 'installed2', 'not_here2', 'iz']
-        for x in attrs_list:
-            setattr(action, x, str())
-
     # check if the program is started as root, else start it with gksudo
     if os.geteuid() != 0:
         arguments = ['', sys.executable] + sys.argv + [os.environ]
@@ -92,7 +80,6 @@ class iod(object):
         cr.set_operator(cairo.OPERATOR_OVER)
 
     def __init__(self):
-        self.set_action_class_attrs()
         Builder.builder.connect_signals(self)
 
         self.current_category = Builder.grid_custom

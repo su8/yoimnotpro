@@ -4,7 +4,6 @@ from mymodules.action.install_remove import StartKickingSomeNinjas
 class InitConnectMeSignals(object):
     def __init__(self):
         ninja = StartKickingSomeNinjas
-        Builder.builder.connect_signals(self)
 
         # connect "clicked" signal to those Menu7 buttons
         Menu7.geany_.connect("clicked", ninja, 'geany')
