@@ -6,6 +6,8 @@ from mymodules.categories.menu7_button import Menu7, InitConnectMeSignals
 import mymodules.categories.somesome as somesome
 from mymodules.action.dial import action, OpenCFGnSetLang, ChangeLang
 import cairo
+import gi
+gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk, GdkPixbuf, Gdk
 
 class iod(object):
