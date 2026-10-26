@@ -5,6 +5,8 @@ import gi
 gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk
 
+CFG = os.path.expanduser('~/.yoimnotpro.conf')
+
 class ChangeLang(object):
     def enc_dec(self, given_str):
         return given_str.encode(encoding='utf-8')\
@@ -13,7 +15,7 @@ class ChangeLang(object):
         active = self.combobox.get_active_text()
         if active in self.combo_dict:
             from mymodules.builder import SetMenuCategoriesTooltipNames
-            with open('/tmp/.yoimnotpro.conf', 'wt') as f:
+            with open(CFG, 'wt') as f:
                 f.write(self.combo_dict[active])
             OpenCFGnSetLang()
             SetMenuCategoriesTooltipNames()
@@ -35,8 +37,8 @@ class ChangeLang(object):
         Gtk.main()
 class OpenCFGnSetLang(object):
     def __init__(self):
-        if os.path.isfile("/tmp/.yoimnotpro.conf"):
-            with open('/tmp/.yoimnotpro.conf', 'rt') as f:
+        if os.path.isfile(CFG):
+            with open(CFG, 'rt') as f:
                 action.section = f.read().split(',')[0] # .split(',')[0] for those that are
         else:                                           # upgrading to newer version
             action.section = 'english'
