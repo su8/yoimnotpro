@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import os
 import sys
+os.chdir(os.path.dirname(os.path.abspath(__file__)))  # ui/, translations/ etc. are relative paths
 from mymodules.builder import Builder, SetMenuCategoriesTooltipNames
 from mymodules.categories.menu7_button import Menu7, InitConnectMeSignals
 import mymodules.categories.somesome as somesome
