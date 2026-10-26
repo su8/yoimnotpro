@@ -1,5 +1,5 @@
-from appcenter.ui import Builder
-from appcenter.installer import StartKickingSomeNinjas
+from appcenter import ui
+from appcenter.installer import on_app_clicked, show_apps
 
 # start screen apps: app: (widget prefix in ui/start.ui, display name, tooltip)
 APPS = {
@@ -45,8 +45,18 @@ APPS = {
         "Gedit is lightweight text editor."),
 }
 
-class InitConnectMeSignals(object):
+
+class StartScreen(object):
+    """The grid shown at startup: a pick of popular apps from all categories."""
+
     def __init__(self):
-        for key, (prefix, _, tooltip) in APPS.items():
-            Builder.builder8.get_object(prefix + '_icon_tooltip_').set_tooltip_text(tooltip)
-            Builder.builder8.get_object(prefix + '_').connect("clicked", StartKickingSomeNinjas, key)
+        self.builder = ui.builders['start']
+        self.grid = self.builder.get_object('apps_grid')
+        for app, (prefix, _, tooltip) in APPS.items():
+            self.builder.get_object(prefix + '_icon_tooltip_').set_tooltip_text(tooltip)
+            self.builder.get_object(prefix + '_').connect("clicked", on_app_clicked, app)
+
+    def load(self):
+        get = self.builder.get_object
+        show_apps({app: (get(prefix + '_img_'), get(prefix + '_'), name)
+            for app, (prefix, name, _) in APPS.items()})

@@ -189,7 +189,7 @@
     <property name="can_focus">False</property>
     <property name="pixbuf">../icons/installed.png</property>
   </object>
-  <object class="GtkGrid" id="grid1">
+  <object class="GtkGrid" id="apps_grid">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
     <property name="margin_left">20</property>
@@ -544,7 +544,7 @@
       </packing>
     </child>
     <child>
-      <object class="GtkButton" id="skyp">
+      <object class="GtkButton" id="skype">
         <property name="visible">True</property>
         <property name="can_focus">True</property>
         <property name="receives_default">True</property>

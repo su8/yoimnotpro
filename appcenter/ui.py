@@ -1,55 +1,28 @@
-from appcenter.i18n import action
+from appcenter.i18n import text
 from gi.repository import Gtk
 
-class Builder:
+CATEGORIES = ('development', 'graphics', 'internet', 'multimedia', 'system', 'utilities')
+INSTALLED_ICON = './icons/installed.png'
+NOT_INSTALLED_ICON = './icons/not-installed.png'
+
+
+def load(path):
     builder = Gtk.Builder()
-    builder.add_from_file('./ui/main.ui')
+    builder.add_from_file(path)
+    return builder
 
-    builder2 = Gtk.Builder()
-    builder2.add_from_file('./ui/development.ui')
-    grid_development = builder2.get_object("grid1")
+main = load('./ui/main.ui')
+builders = {name: load('./ui/{}.ui'.format(name)) for name in CATEGORIES + ('start',)}
 
-    builder3 = Gtk.Builder()
-    builder3.add_from_file('./ui/graphics.ui')
-    grid_graphics = builder3.get_object("grid1")
 
-    builder4 = Gtk.Builder()
-    builder4.add_from_file('./ui/internet.ui')
-    grid_internet = builder4.get_object("grid1")
+def highlight_category(category):
+    """Show the active icon on this category's sidebar button and the plain one on the others."""
+    for name in CATEGORIES:
+        extension = 'xpm' if name == 'system' else 'png'
+        main.get_object(name + '_icon').set_from_file('./icons/{}{}.{}'.format(
+            name, '-active' if name == category else '', extension))
 
-    builder5 = Gtk.Builder()
-    builder5.add_from_file('./ui/multimedia.ui')
-    grid_multimedia = builder5.get_object("grid1")
 
-    builder6 = Gtk.Builder()
-    builder6.add_from_file('./ui/system.ui')
-    grid_system = builder6.get_object("grid1")
-
-    builder7 = Gtk.Builder()
-    builder7.add_from_file('./ui/utilities.ui')
-    grid_utilities = builder7.get_object("grid1")
-
-    builder8 = Gtk.Builder()
-    builder8.add_from_file('./ui/start.ui')
-    grid_custom = builder8.get_object("grid1")
-
-    # display text for each category while hovering it with your mouse
-    button1 = builder.get_object("button1")
-    button2 = builder.get_object("button2")
-    button3 = builder.get_object("button3")
-    button4 = builder.get_object("button4")
-    button5 = builder.get_object("button5")
-    button6 = builder.get_object("button6")
-    button7 = builder.get_object("button7")
-    button8 = builder.get_object("button8")
-
-class SetMenuCategoriesTooltipNames:
-    def __init__(self):
-        Builder.button1.set_tooltip_markup(action.development)
-        Builder.button2.set_tooltip_markup(action.graphics)
-        Builder.button3.set_tooltip_markup(action.internet)
-        Builder.button4.set_tooltip_markup(action.multimedia)
-        Builder.button5.set_tooltip_markup(action.system)
-        Builder.button6.set_tooltip_markup(action.utilities)
-        Builder.button7.set_tooltip_markup(action.about)
-        Builder.button8.set_tooltip_markup(action.langs)
+def set_category_tooltips():
+    for name in CATEGORIES + ('about', 'language'):
+        main.get_object(name + '_button').set_tooltip_markup(getattr(text, name))
