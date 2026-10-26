@@ -16,13 +16,11 @@ class StartKickingSomeNinjas(object):
             Find[1].set_from_file(arg[0])
             Find[2].set_tooltip_markup(arg[1])
             dial(Find[3], arg[2])
-        list_with_rdd = ['p7zip', 'imagemagick', 'OpenJDK']
 
         if (os.path.isfile(Find[0]) if not 
             Find[3] == 'OpenJDK' else os.path.exists(Find[0])):
-            os.system('pacman -{rem} {program} --noconfirm'.format(
-                rem=('R' if not Find[3] in list_with_rdd else 'Rdd'),
-                    program=(freeze if not freeze == 'openjdk' else 'jre7-openjdk')))
+            os.system('pacman -R {program} --noconfirm'.format(
+                program=(freeze if not freeze == 'openjdk' else 'jre7-openjdk')))
             if not (os.path.isfile(Find[0]) if not 
             Find[3] == 'OpenJDK' else os.path.exists(Find[0])):
                 if_robin_has_spare_bike(no, nope, action.remove_it)
