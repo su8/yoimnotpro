@@ -17,6 +17,8 @@ April 21 2014: Bulgarian translation was added, thankfully to Metodi Kirov.
 * gnome-themes-standard  (set Adwaita theme after that)
 * gtk-engines
 
+* if on debian: sudo apt install libwebkit2gtk-4.1-dev libwebkitgtk-6.0-dev
+
 ## 7 Languages are available:
 
 * English
