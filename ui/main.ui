@@ -68,7 +68,7 @@
                 <property name="focus_on_click">False</property>
                 <property name="always_show_image">True</property>
                 <property name="draw_indicator">True</property>
-                <signal name="clicked" handler="on_button1_clicked" swapped="no"/>
+                <signal name="clicked" handler="on_category_clicked" swapped="no"/>
               </object>
               <packing>
                 <property name="expand">False</property>
@@ -87,7 +87,7 @@
                 <property name="focus_on_click">False</property>
                 <property name="always_show_image">True</property>
                 <property name="draw_indicator">True</property>
-                <signal name="clicked" handler="on_button2_clicked" swapped="no"/>
+                <signal name="clicked" handler="on_category_clicked" swapped="no"/>
               </object>
               <packing>
                 <property name="expand">False</property>
@@ -106,7 +106,7 @@
                 <property name="focus_on_click">False</property>
                 <property name="always_show_image">True</property>
                 <property name="draw_indicator">True</property>
-                <signal name="clicked" handler="on_button3_clicked" swapped="no"/>
+                <signal name="clicked" handler="on_category_clicked" swapped="no"/>
               </object>
               <packing>
                 <property name="expand">False</property>
@@ -125,7 +125,7 @@
                 <property name="focus_on_click">False</property>
                 <property name="always_show_image">True</property>
                 <property name="draw_indicator">True</property>
-                <signal name="clicked" handler="on_button4_clicked" swapped="no"/>
+                <signal name="clicked" handler="on_category_clicked" swapped="no"/>
               </object>
               <packing>
                 <property name="expand">False</property>
@@ -144,7 +144,7 @@
                 <property name="focus_on_click">False</property>
                 <property name="always_show_image">True</property>
                 <property name="draw_indicator">True</property>
-                <signal name="clicked" handler="on_button5_clicked" swapped="no"/>
+                <signal name="clicked" handler="on_category_clicked" swapped="no"/>
               </object>
               <packing>
                 <property name="expand">False</property>
@@ -163,7 +163,7 @@
                 <property name="focus_on_click">False</property>
                 <property name="always_show_image">True</property>
                 <property name="draw_indicator">True</property>
-                <signal name="clicked" handler="on_button6_clicked" swapped="no"/>
+                <signal name="clicked" handler="on_category_clicked" swapped="no"/>
               </object>
               <packing>
                 <property name="expand">False</property>

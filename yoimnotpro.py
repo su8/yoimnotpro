@@ -18,41 +18,12 @@ class iod(object):
         arguments = ['', sys.executable] + sys.argv + [os.environ]
         os.execlpe('gksudo', *arguments)
 
-    def on_button1_clicked(self, widget):
-        somesome.menu1.load()
+    def on_category_clicked(self, widget):
+        grid = self.grid_of_button[widget]
+        self.cur_menu_dict[grid].load()
         self.vbox.remove(self.current_category)
-        self.current_category = Builder.grid_development
-        self.vbox.add(Builder.grid_development)
-
-    def on_button2_clicked(self, widget):
-        somesome.menu2.load()
-        self.vbox.remove(self.current_category)
-        self.current_category = Builder.grid_graphics
-        self.vbox.add(Builder.grid_graphics)
-
-    def on_button3_clicked(self, widget):
-        somesome.menu3.load()
-        self.vbox.remove(self.current_category)
-        self.current_category = Builder.grid_internet
-        self.vbox.add(Builder.grid_internet)
-
-    def on_button4_clicked(self, widget):
-        somesome.menu4.load()
-        self.vbox.remove(self.current_category)
-        self.current_category = Builder.grid_multimedia
-        self.vbox.add(Builder.grid_multimedia)
-
-    def on_button5_clicked(self, widget):
-        somesome.menu5.load()
-        self.vbox.remove(self.current_category)
-        self.current_category = Builder.grid_system
-        self.vbox.add(Builder.grid_system)
-
-    def on_button6_clicked(self, widget):
-        somesome.menu6.load()
-        self.vbox.remove(self.current_category)
-        self.current_category = Builder.grid_utilities
-        self.vbox.add(Builder.grid_utilities)
+        self.current_category = grid
+        self.vbox.add(grid)
 
     def on_button7_clicked(self, widget):
         aboutdialog = Gtk.AboutDialog()
@@ -89,6 +60,12 @@ class iod(object):
         Builder.grid_multimedia: somesome.menu4,Builder.grid_system: 
         somesome.menu5,Builder.grid_utilities: somesome.menu6,
         Builder.grid_custom: somesome.menu7}
+        self.grid_of_button = {Builder.button1: Builder.grid_development,
+        Builder.button2: Builder.grid_graphics,
+        Builder.button3: Builder.grid_internet,
+        Builder.button4: Builder.grid_multimedia,
+        Builder.button5: Builder.grid_system,
+        Builder.button6: Builder.grid_utilities}
 
         self.window = Builder.builder.get_object("window1")
 
