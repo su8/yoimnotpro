@@ -1,6 +1,8 @@
 import os
 from random import choice
 from configparser import ConfigParser
+import gi
+gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk
 
 class ChangeLang(object):
