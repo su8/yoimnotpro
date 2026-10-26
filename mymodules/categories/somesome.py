@@ -4,7 +4,7 @@ from mymodules.buttons_images import Img
 from mymodules.builder import Builder
 from mymodules.action.install_remove import StartKickingSomeNinjas
 from mymodules.action.dial import SetToolTip, action
-from mymodules.categories.menu7_button import Menu7
+from mymodules.categories.menu7_button import APPS
 
 class Menu6(object):
     pass
@@ -77,34 +77,13 @@ class Inherit(object):
         self.deep_copy = dict()
 
 class menu7(Inherit):
-    pass
     @staticmethod
     def load():
-        men7 = menu7({
-        "gedit": ("/usr/bin/gedit", Img.gedit__img, Menu7.gedit_, "Gedit"),
-        "blender": ("/usr/bin/blender", Img.blender__img, Menu7.blender_, "Blender"),
-        "geany": ("/usr/bin/geany", Img.geany__img, Menu7.geany_, "Geany"),
-        "glade": ("/usr/bin/glade", Img.glade__img, Menu7.glade_, 'Glade'),
-        "ninja-ide": ("/usr/bin/ninja-ide", Img.ninja_ide__img, Menu7.ninja_ide_, 'Ninja-IDE'),
-        "evince": ("/usr/bin/evince", Img.evince__img, Menu7.evince_, 'Evince'),
-        "gimp": ("/usr/bin/gimp", Img.gimp__img, Menu7.gimp_, 'GIMP'),
-        "chromium": ("/usr/bin/chromium", Img.chromium__img, Menu7.chromium_, 'Chromium'),
-        "deluge": ("/usr/bin/deluge", Img.deluge__img, Menu7.deluge_, 'Deluge'),
-        "xchat": ("/usr/bin/xchat", Img.xchat__img, Menu7.xchat_, 'Xchat'),
-        "liferea": ("/usr/bin/liferea", Img.liferea__img, Menu7.liferea_, 'Liferea'),
-        "skype": ("/usr/bin/skype", Img.skype__img, Menu7.skype_, 'Skype'),
-        "steam": ("/usr/bin/steam", Img.steam__img, Menu7.steam_, 'Steam'),
-        "audacious": ("/usr/bin/audacious", Img.audacious__img, Menu7.audacious_, 'Audacious'),
-        "openshot": ("/usr/bin/openshot", Img.openshot__img, Menu7.openshot_, 'Openshot'),
-        "flashplugin": ("/usr/bin/flash-player-properties", Img.flashplayer__img,
-            Menu7.flashplayer_, 'Adobe Flashplayer'),
-        "xfburn": ("/usr/bin/xfburn", Img.xfburn__img, Menu7.xfburn_, 'Xfburn'),
-        "htop": ("/usr/bin/htop", Img.htop__img, Menu7.htop_, 'Htop'),
-        "virtualbox": ("/usr/bin/virtualbox", Img.virtualbox__img, Menu7.virtualbox_, 'Virtualbox'),
-        "wireshark-gtk": ("/usr/bin/wireshark", Img.wireshark__img, Menu7.wireshark_, 'Wireshark')})
-        attr = getattr(men7, 'dicti')
+        get = Builder.builder8.get_object
+        men7 = menu7({key: (path, get(prefix + '_img_'), get(prefix + '_'), name)
+            for key, (prefix, path, name, _) in APPS.items()})
         men7.init_set_file_n_tooltip()
-        setattr(action, 'dicti', attr)
+        setattr(action, 'dicti', men7.dicti)
 
 class menu6(Inherit):
     first_run = str()

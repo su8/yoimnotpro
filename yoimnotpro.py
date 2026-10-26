@@ -3,7 +3,7 @@ import os
 import sys
 os.chdir(os.path.dirname(os.path.abspath(__file__)))  # ui/, translations/ etc. are relative paths
 from mymodules.builder import Builder, SetMenuCategoriesTooltipNames
-from mymodules.categories.menu7_button import Menu7, InitConnectMeSignals
+from mymodules.categories.menu7_button import InitConnectMeSignals
 import mymodules.categories.somesome as somesome
 from mymodules.action.dial import action, OpenCFGnSetLang, ChangeLang
 import cairo
@@ -91,7 +91,7 @@ class iod(object):
 
         OpenCFGnSetLang()
         InitConnectMeSignals()
-        Menu7.load_icons_n_tooltips_at_startup()
+        somesome.menu7.load()
         SetMenuCategoriesTooltipNames()
 
         self.window.connect("delete-event", Gtk.main_quit)
